@@ -1,13 +1,14 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {CommonModule} from '@angular/common';
+import {NgModule} from '@angular/core';
+import {AngularFireModule} from 'angularfire2';
 
-import { CoreRoutingModule } from './core-routing.module';
+import {environment} from '../../environments/environment';
 
 @NgModule({
   imports: [
-    CommonModule,
-    CoreRoutingModule
+    CommonModule, AngularFireModule.initializeApp(environment.firebaseConfig)
   ],
   declarations: []
 })
-export class CoreModule { }
+export class CoreModule {
+}
