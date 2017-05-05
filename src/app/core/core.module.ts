@@ -4,11 +4,11 @@ import {AngularFireModule} from 'angularfire2';
 
 import {environment} from '../../environments/environment';
 
+
 @NgModule({
   imports: [
     CommonModule, AngularFireModule.initializeApp(environment.firebaseConfig)
-  ],
-  declarations: []
+  ]
 })
 export class CoreModule {
 }

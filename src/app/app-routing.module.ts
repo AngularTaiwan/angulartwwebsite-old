@@ -20,6 +20,7 @@ const routes: Routes = [
       {path: 'online', loadChildren: 'app/online/online.module#OnlineModule'}
     ]
   },
+  {path: 'admin', loadChildren: 'app/admin/admin.module#AdminModule'},
   {path: '**', redirectTo: '/', pathMatch: 'full'}
 ];
 

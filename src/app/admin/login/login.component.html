@@ -1,0 +1,16 @@
+<!-- partial:partial/_contact.html -->
+<div class="contact">
+  <div class="container">
+    <form novalidate #myForm="ngForm">
+      <p class="title">後台登入</p>
+      <p class="text-danger" [hidden]="!errorMessage">
+        {{ errorMessage }}
+      </p>
+      <input type="email" placeholder="Email" class="input" name="email" [(ngModel)]="loginState.email" #email="ngModel" email>
+      <input type="password" placeholder="Password" class="input" name="password" [(ngModel)]="loginState.password" #password="ngModel"
+        required>
+      <button class="btn" (click)="login()" [disabled]="!myForm.form.valid">登入</button>
+    </form>
+  </div>
+</div>
+<!-- partial -->
