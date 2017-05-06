@@ -25,14 +25,16 @@ export class StudyMaintainDetailComponent implements OnInit, OnDestroy {
     this.paramsSub =
         this.route.params
             .switchMap(params => this.adminService.getStudy(params['id']))
-            .do(data => this.isEdit = data !== undefined)
+            .do((data:any) => {
+              this.isEdit = data.$value !== null
+            })
             .subscribe(data => {
               this.item = this.isEdit ? data : this.initItem();
             });
   }
 
   initItem(): StudyDetail {
-    return <StudyDetail>{title: '', speaker: '', description: '', youtube: ''};
+    return <StudyDetail>{title: '', speaker: '', description: '', youtube: '', updateDate: new Date()};
   }
   ngOnInit() {}
   ngOnDestroy() {
