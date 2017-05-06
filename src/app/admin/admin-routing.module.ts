@@ -6,6 +6,7 @@ import {ActivityMaintainComponent} from './activity-maintain/activity-maintain.c
 import {AuthGuard} from './auth.guard';
 import {LoginComponent} from './login/login.component';
 import {MaintainComponent} from './maintain/maintain.component';
+import {StudyMaintainDetailComponent} from './study-maintain-detail/study-maintain-detail.component';
 import {StudyMaintainComponent} from './study-maintain/study-maintain.component';
 
 const routes: Routes = [
@@ -14,6 +15,7 @@ const routes: Routes = [
     component: MaintainComponent,
     children: [
       {path: 'study', component: StudyMaintainComponent},
+      {path: 'study/:id', component: StudyMaintainDetailComponent},
       {path: 'activity', component: ActivityMaintainComponent},
       {path: 'activity/:id', component: ActivitityMaintainDetailComponent},
       {path: '', redirectTo: '/admin/maintain/study', pathMatch: 'full'}

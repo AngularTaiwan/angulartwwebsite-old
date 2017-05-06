@@ -1,14 +1,14 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {CommonModule} from '@angular/common';
+import {NgModule} from '@angular/core';
 
-import { StudyRoutingModule } from './study-routing.module';
-import { StudyComponent } from './study/study.component';
+import {StudyRoutingModule} from './study-routing.module';
+import {StudyResolver} from './study.resolver';
+import {StudyComponent} from './study/study.component';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    StudyRoutingModule
-  ],
+  imports: [CommonModule, StudyRoutingModule],
+  providers: [StudyResolver],
   declarations: [StudyComponent]
 })
-export class StudyModule { }
+export class StudyModule {
+}

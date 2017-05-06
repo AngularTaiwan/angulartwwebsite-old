@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {FirebaseListObservable} from 'angularfire2/database';
+
+import {AdminService} from './../admin.service';
+import {StudyDetail} from './../study-maintain-detail/study-detail.model';
 
 @Component({
   selector: 'augt-study-maintain',
@@ -6,10 +10,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./study-maintain.component.scss']
 })
 export class StudyMaintainComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
+  items: FirebaseListObservable<StudyDetail[]>;
+  constructor(private adminService: AdminService) {
+    this.items = adminService.loadStudy();
   }
 
+  ngOnInit() {}
 }

@@ -10,34 +10,16 @@
 
 <div class="media-wrap">
   <div class="container">
-    <div class="row media">
+    <div class="row media" *ngFor="let item of items">
       <div class="col-sm-4">
         <div class="photo"><img src="assets/img/img1.jpg"></div>
       </div>
       <div class="col-sm-8">
-        <p class="title">Angular 線上讀書會</p>
-        <p class="subtitle">主題：RxJS 常用 Operator 介紹與應用</p>
-        <p>這次的線上讀書會請來了 Kevin Yang 為大家講解在實物上，我們常用的 Operator 有哪些，以及該如何去應用，其中還準備了一些選擇的秘訣，歡迎加入！</p>
-      </div>
-    </div>
-    <div class="row media">
-      <div class="col-sm-4">
-        <div class="photo"><img src="assets/img/img1.jpg"></div>
-      </div>
-      <div class="col-sm-8">
-        <p class="title">Angular 線上讀書會</p>
-        <p class="subtitle">主題：RxJS 常用 Operator 介紹與應用</p>
-        <p>這次的線上讀書會請來了 Kevin Yang 為大家講解在實物上，我們常用的 Operator 有哪些，以及該如何去應用，其中還準備了一些選擇的秘訣，歡迎加入！</p>
-      </div>
-    </div>
-    <div class="row media">
-      <div class="col-sm-4">
-        <div class="photo"><img src="assets/img/img1.jpg"></div>
-      </div>
-      <div class="col-sm-8">
-        <p class="title">Angular 線上讀書會</p>
-        <p class="subtitle">主題：RxJS 常用 Operator 介紹與應用</p>
-        <p>這次的線上讀書會請來了 Kevin Yang 為大家講解在實物上，我們常用的 Operator 有哪些，以及該如何去應用，其中還準備了一些選擇的秘訣，歡迎加入！</p>
+        <p class="title">主題：{{ item.title}}</p>
+        <p class="subtitle">講者: {{item.speaker}}</p>
+        <p class="date">日期: {{item.episodeDate }}</p>
+        <p>{{item.description}}</p>
+        <p *ngIf="item.youtube"><a [href]="item.youtube" target="_blank">Youtube影片</a></p>
       </div>
     </div>
   </div>
