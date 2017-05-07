@@ -1,0 +1,29 @@
+<h2>線上讀書會</h2>
+<div class="list">
+  <h3>清單</h3>
+  <table class="table">
+    <thead>
+      <tr>
+        <th colspan="3">
+          <button class="btn" (click)="newEpisode()">
+            <i class="fa fa-plus"></i> 新增
+          </button>
+        </th>
+      </tr>
+    </thead>
+    <thead>
+      <tr>
+        <th class="col-sm-2">#</th>
+        <th class="col-sm-8">活動主題</th>
+        <th class="col-sm-2">更新日期</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of (items | async)">
+        <td class="col-sm-2" [routerLink]="['./', item.$key]">修改</td>
+        <td class="col-sm-8">{{ item.title }}</td>
+        <td class="col-sm-2">{{ item.updateDate | date }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
