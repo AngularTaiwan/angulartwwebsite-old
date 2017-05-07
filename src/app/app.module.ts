@@ -11,7 +11,7 @@ import {CoreModule} from './core/core.module';
 import {EventModule} from './event/event.module';
 import {MainModule} from './main/main.module';
 import {ShareModule} from './share/share.module';
-
+/*這是一個測試*/
 export const eventConfig = new InjectionToken('eventConfig');
 
 @NgModule({
