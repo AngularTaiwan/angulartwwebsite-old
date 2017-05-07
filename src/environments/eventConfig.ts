@@ -3,7 +3,7 @@ import {Component} from '@angular/core';
 import {Event2017Component} from './../app/event/event2017/event2017.component';
 
 export const EventConfig: IEventConfig = {
-  showEventPage: true,
+  showEventPage: false,
   component: Event2017Component
 }
 
