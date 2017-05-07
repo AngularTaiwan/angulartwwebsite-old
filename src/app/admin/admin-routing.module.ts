@@ -12,6 +12,7 @@ import {StudyMaintainComponent} from './study-maintain/study-maintain.component'
 const routes: Routes = [
   {path: '', component: LoginComponent}, {
     path: 'maintain',
+    canActivate: [AuthGuard],
     component: MaintainComponent,
     children: [
       {path: 'study', component: StudyMaintainComponent},

@@ -17,4 +17,14 @@ export class StudyComponent implements OnInit {
   }
 
   ngOnInit() {}
+
+  /**
+   * 取得Youtube影片縮圖
+   * url:https://youtu.be/HoEB_9TYe70
+   */
+  getThumbnail(url): string {
+    if (!url) return '';
+    const videoId = url.split('/').pop();
+    return `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+  }
 }
