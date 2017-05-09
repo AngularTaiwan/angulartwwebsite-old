@@ -1,0 +1,104 @@
+.circle-type {
+    padding: 80px 0; 
+    .item {
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .photo {
+        width: 224px;
+        height: 224px;
+        border-radius: 100%;
+        display: inline-block;
+        overflow: hidden;
+        margin-bottom: 20px;
+        border: solid 1px #979797;
+        img{
+            max-height: 100%;
+        }
+    }
+    .title {
+        margin-bottom: 70px;
+    }
+}
+.table-wrap {
+    padding: 80px 0;
+    .title {
+        margin-bottom: 40px;
+    }
+    .table {
+        thead {
+            tr {
+                th {
+                    background: #ddd;
+                    font-size: 18px;
+                    border-right: 5px solid white;
+                    padding: 15px 20px;
+                    vertical-align: middle;
+                    // border-top: 1px solid white;
+                    &:first-child {
+                        width: 250px;
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                td {
+                    background: #ddd;
+                    font-size: 16px;
+                    border-top: 5px solid white;
+                    border-right: 5px solid white;
+                    padding: 15px 20px;
+                    // &:first-child {
+                    //     width: 250px;
+                    // }
+                }
+            }
+        }
+    }
+}
+@media(max-width: 991px) {
+    .circle-type {
+        padding: 50px 0;
+        .item {
+            margin-bottom: 50px;
+        }
+        .photo {
+            margin-bottom: 20px;
+        }
+        p {
+            max-width: 450px;
+            margin: 0 auto;
+        }
+    }
+}
+@media(max-width: 480px) {
+    .table-wrap {
+        padding: 50px 0;
+        .title {
+            margin-bottom: 30px;
+        }
+        .table {
+            thead {
+                tr {
+                    th {
+                        font-size: 16px;
+                        padding: 5px 10px;
+                        &:first-child {
+                            width: 120px;
+                            
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        font-size: 14px;
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+}

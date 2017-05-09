@@ -1,0 +1,17 @@
+/* Background Image */
+@mixin background-image ($url, $size:initial, $position:center, $repeat:no-repeat) {
+  @if str-length(#{str-index($url, "/")}) > 0 {
+    background-image: url($url);
+  }
+  @else {
+    background-image: url("../../images/#{$url}");
+  }
+  background-size: $size;
+  background-position: $position;
+  background-repeat: $repeat;
+}
+
+@mixin linear-background ($topColor, $bottomColor) {
+  background: linear-gradient(to bottom, #{$topColor} 0%, #{$bottomColor} 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#{$topColor}', endColorstr='#{$bottomColor}',GradientType=0 ); /* IE6-9 */
+}

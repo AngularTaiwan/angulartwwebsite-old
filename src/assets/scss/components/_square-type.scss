@@ -1,0 +1,48 @@
+.square-type {
+    background: $orange;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 80px 0;
+    .content {
+        margin: 50px 0 100px;
+    }
+    .title {
+        font-size: 32px;
+        margin-bottom: 10px;
+         opacity: 1;
+    }
+    p {
+        max-width: 780px;
+        margin: 0 auto;
+        opacity: 0.7;
+    }
+    .photo {
+        display: inline-block;
+        max-width: 270px;
+        // height: 270px;
+        overflow: hidden;
+        margin-bottom: 30px;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+@media(max-width: 991px) {
+    .square-type {
+        padding: 50px 0;
+        .item {
+            margin-bottom: 50px;
+        }
+        .photo {
+            margin-bottom: 20px;
+        }
+        .content {
+            margin-bottom: 30px;
+        }
+        .title {
+            font-size: 28px;
+        }
+    }
+}
