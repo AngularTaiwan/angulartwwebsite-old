@@ -1,0 +1,14 @@
+.btn {
+    background: none;
+    border: solid 2px $orange;
+    color: $orange;
+    border-radius: 0;
+    padding: 10px 20px;
+    box-shadow: none;
+    text-align: center;
+    &.active, &:hover, &:focus {
+        background: $orange;
+        color: white;
+        box-shadow: none;
+    }
+}

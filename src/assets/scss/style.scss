@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+$bluegreen: #1296b3;
+$orange: #de6d48;
+$deepblue: #263343;
+
+
+@import "mixin";
+@import "main";
+
+//componentes
+@import "components/header";
+@import "components/footer";
+@import "components/banner";
+@import "components/circle-type";
+@import "components/square-type";
+@import "components/contact";
+@import "components/photos";
+@import "components/button";
+@import "components/media";
+
+//pages
+@import "pages/index";
+@import "pages/online";
+@import "pages/activity-detail";
+
+
+
+@import "rwd";
+
+
+  

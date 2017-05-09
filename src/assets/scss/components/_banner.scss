@@ -1,0 +1,37 @@
+.banner {
+    height: 500px; 
+    background: url(../img/banner-o.jpg) center center no-repeat/cover;
+    .content {
+        width: 75%;
+        max-width: 850px;
+        background: rgba(0, 0, 0, 0.65);
+        color: white;
+        margin: 0 auto;
+        padding: 25px 20px;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.7em;
+        h2 {
+            margin: 0 0 20px;
+            font-size: 36px; 
+        }
+    }
+}
+
+@media(max-width: 480px) {
+    .banner {
+        height: 400px;
+        .content {
+            width: 90%;
+            padding: 20px 15px;
+            font-size: 14px;
+            line-height: 1.5em;
+            h2 {
+                font-size: 20px;
+            }
+        }
+    }
+}

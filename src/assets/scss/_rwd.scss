@@ -1,0 +1,14 @@
+.mobile {
+    display: none;
+}
+@media(max-width: 991px) {
+    .web {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+@media(max-width: 480px) {
+    
+}

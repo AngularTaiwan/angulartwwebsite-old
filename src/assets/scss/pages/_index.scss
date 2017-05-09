@@ -1,0 +1,29 @@
+.circle-single {
+    background: $orange;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    .title {
+        font-size: 24px;
+    }
+    .photo {
+        width: 85px;
+        height: 85px;
+        background: url(../img/will.jpg) center center no-repeat/cover;
+        border-radius: 100%;
+        margin: 40px auto 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .circle-single {
+        padding: 50px 0;
+    }
+}
+@media (max-width: 480px) {
+    .circle-single {
+        .title {
+            font-size: 20px;
+        }
+    }
+}

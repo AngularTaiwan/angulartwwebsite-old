@@ -20,7 +20,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "augt",
       "styles": [
-        "styles.scss"
+        "./assets/scss/style.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

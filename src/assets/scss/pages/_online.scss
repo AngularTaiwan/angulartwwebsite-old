@@ -1,0 +1,11 @@
+.video {
+    margin: 80px 0;
+    .title {
+        margin-bottom: 60px;
+    }
+}
+@media(max-width: 991px) {
+    .video {
+        margin: 30px;
+    }
+}

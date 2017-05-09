@@ -1,0 +1,293 @@
+footer {
+    background: $deepblue;
+    padding: 75px 0 90px;
+    p {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    li {
+        margin-bottom: 15px;        
+    }
+    a {
+        color: white;
+        &:hover {
+            color: white;
+            text-decoration: none;
+            border-bottom: 1px solid;
+        }
+    }
+    .share {
+        text-align: center;
+        margin: 70px 0 30px;
+    }
+    .copyright {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+.footer-menu-mobile {
+    display: none;
+    .item {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .title {
+        padding: 15px 0;
+        margin: 0;
+        cursor: pointer;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        img {
+            height: 10px;
+            float: right;
+            //opacity: 0.3;
+            margin: 5px 10px;
+        }
+        &.active {
+            .footer-close {
+                transform: rotate(90deg);
+            }
+        }
+    }
+    .footer-close {
+        transform: rotate(45deg);
+        -webkit-transition: all 0.25s ease-in;
+        -moz-transition: all 0.25s ease-in;
+        -o-transition: all 0.25s ease-in;
+        transition: all 0.25s ease-in;
+    }
+    .footer-list {
+        display: none;
+        margin: 10px 0 0; 
+        a {
+            width: 100%;
+            display: block;
+            color: white;
+            padding: 5px 0;
+            &:hover {
+                border-bottom: none;
+            } 
+        }
+    }
+    
+}
+.share-btn {
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    margin-right: 55px;
+    border-radius: 100%;
+    position: relative;
+    overflow: hidden;
+    &:hover {
+        border-bottom: none;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.share-fb {
+    background: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    .fb-icon {
+        top: 9px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .fb-icon-h {
+        top: 50px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    &:hover {
+        background: #3b5998;
+        .fb-icon {
+            top: -30px;
+        }
+        .fb-icon-h {
+            top: 9px;
+        }
+    }
+}
+.share-youtube {
+    background: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    .youtube-icon {
+        top: 11px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .youtube-icon-h {
+        top: 50px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    &:hover {
+        background: #e52d27;
+        .youtube-icon {
+            top: -30px;
+        }
+        .youtube-icon-h {
+            top: 11px;
+        }
+    }
+}
+.share-telegram {
+    background: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    .telegram-icon {
+        top: 12px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .telegram-icon-h {
+        top: 50px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    &:hover {
+        background: #2da4d7;
+        .telegram-icon {
+            top: -30px;
+        }
+        .telegram-icon-h {
+            top: 12px;
+        }
+    }
+}
+.share-github {
+    background: white;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    .github-icon {
+        top: 12px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .github-icon-h {
+        top: 50px;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    &:hover {
+        background: #f34f29;
+        .github-icon {
+            top: -30px;
+        }
+        .github-icon-h {
+            top: 12px;
+        } 
+    }
+}
+.fb-icon {
+    background: url(../img/facebook.svg) 0 0 no-repeat/100%;
+    width: 14px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+}
+.youtube-icon {
+    background: url(../img/youtube.svg) 0 0 no-repeat/100%;
+    width: 20px;
+    height: 23px;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+}
+.telegram-icon {
+    background: url(../img/telegram.svg) 0 0 no-repeat/100%;
+    width: 25px;
+    height: 23px;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+}
+.github-icon {
+    background: url(../img/github.svg) 0 0 no-repeat/100%;
+    width: 26px;
+    height: 23px;
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+}
+.fb-icon-h {
+    background: url(../img/facebook-h.svg) 0 0 no-repeat/100%;
+    width: 14px;
+    height: 26px;
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+}
+.youtube-icon-h {
+    background: url(../img/youtube-h.svg) 0 0 no-repeat/100%;
+    width: 20px;
+    height: 23px;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+}
+.telegram-icon-h {
+    background: url(../img/telegram-h.svg) 0 0 no-repeat/100%;
+    width: 25px;
+    height: 23px;
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+}
+.github-icon-h {
+    background: url(../img/github-h.svg) 0 0 no-repeat/100%;
+    width: 26px;
+    height: 23px;
+    display: inline-block;
+    position: absolute;
+    left: 10px; 
+}
+
+@media(max-width: 991px) {
+    footer {
+        padding: 35px 0;
+    }
+}
+@media(max-width: 480px) {
+    footer {
+        .share {
+            margin: 50px 0 20px;
+            .share-btn {
+                margin-right: 25px;
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
