@@ -1,5 +1,5 @@
 .circle-type {
-    padding: 80px 0; 
+    padding: 80px 0;
     .item {
         text-align: center;
         margin-bottom: 50px;
@@ -29,7 +29,7 @@
         thead {
             tr {
                 th {
-                    background: #ddd;
+                    background: #ccc;
                     font-size: 18px;
                     border-right: 5px solid white;
                     padding: 15px 20px;
@@ -44,14 +44,24 @@
         tbody {
             tr {
                 td {
-                    background: #ddd;
+                    font-size: 16px;
+                    background: #f5f5f5;
                     font-size: 16px;
                     border-top: 5px solid white;
                     border-right: 5px solid white;
                     padding: 15px 20px;
+                    p {
+                      font-size: 16px;
+                      margin-bottom: 0;
+                    }
                     // &:first-child {
                     //     width: 250px;
                     // }
+                }
+                &:nth-child(odd) {
+                  td {
+                    background: #fbfbfb;
+                  }
                 }
             }
         }
@@ -86,7 +96,7 @@
                         padding: 5px 10px;
                         &:first-child {
                             width: 120px;
-                            
+
                         }
                     }
                 }
