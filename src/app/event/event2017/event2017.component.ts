@@ -15,9 +15,8 @@ export class Event2017Component implements OnInit {
     {
       name: '洪名辰',
       description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
-      photo: 'assets/img/img1.jpg'
+          `第 8 屆 iT 邦幫忙鐵人賽 Modern Web 組冠軍 - 30 天精通 RxJS，默默無名的少年魔法師，常出現在魔法師大會中，專注於前端的相關法術。`,
+      photo: 'assets/img/events/2017/jerryHong.jpg'
     },
     {
       name: 'Sam',
@@ -35,17 +34,15 @@ export class Event2017Component implements OnInit {
     },
     {
       name: 'Jimmy ho',
-      description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
-      photo: 'assets/img/img1.jpg'
+      description: `是一個什麼都要碰的打雜工程師`,
+      photo: 'assets/img/events/2017/jimmy.jpg'
     },
     {
       name: 'Jeff',
       description:
           `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
         volumus.`,
-      photo: 'assets/img/img1.jpg'
+      photo: 'assets/img/events/2017/jeff.jpg'
     },
     {
       name: '潘拉拉',
@@ -59,7 +56,7 @@ export class Event2017Component implements OnInit {
       description:
           `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
         volumus.`,
-      photo: 'assets/img/img1.jpg'
+      photo: 'assets/img/events/2017/will.jpg'
     }
   ];
   constructor(private Title: Title, private meta: Meta) {
