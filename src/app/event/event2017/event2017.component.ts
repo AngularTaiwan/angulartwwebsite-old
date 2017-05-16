@@ -34,10 +34,8 @@ export class Event2017Component implements OnInit {
     },
     {
       name: 'Jimmy ho',
-      description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
-      photo: 'assets/img/img1.jpg'
+      description: `是一個什麼都要碰的打雜工程師`,
+      photo: 'assets/img/events/2017/jimmy.jpg'
     },
     {
       name: 'Jeff',
