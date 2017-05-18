@@ -40,8 +40,7 @@ export class Event2017Component implements OnInit {
     {
       name: 'Jeff',
       description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
+          `任職於多奇數位創意，酷奇教育訓練 Angular 實作課程教練，擁有一年又過三個月的 Angular 2+ 開發經驗，預計再三年將學會火球術(?)的熱血前端開發者`,
       photo: 'assets/img/events/2017/jeff.jpg'
     },
     {
