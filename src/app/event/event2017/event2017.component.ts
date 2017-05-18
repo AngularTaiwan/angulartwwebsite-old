@@ -44,11 +44,10 @@ export class Event2017Component implements OnInit {
       photo: 'assets/img/events/2017/jeff.jpg'
     },
     {
-      name: '潘拉拉',
+      name: '拉拉醬',
       description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
-      photo: 'assets/img/img1.jpg'
+          `三竹資訊 技術部前端工程師。曾任職過全端網頁工程師、iOS App Developer，目前正享受開發前端的樂趣。`,
+      photo: 'assets/img/events/2017/lala.jpg'
     },
     {
       name: 'Will 保哥',
