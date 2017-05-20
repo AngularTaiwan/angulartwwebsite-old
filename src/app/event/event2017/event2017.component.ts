@@ -21,9 +21,8 @@ export class Event2017Component implements OnInit {
     {
       name: 'Sam',
       description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
-      photo: 'assets/img/img1.jpg'
+          `任職於神腦國際，原本為後端開發者，喜歡物件導向，因為 TypeScript 與 Angular 的優雅而瘋狂愛上，目前與團隊使用 Angular 作為前端開發。`,
+      photo: 'assets/img/events/2017/sam.jpg'
     },
     {
       name: 'Haru',
@@ -52,8 +51,7 @@ export class Event2017Component implements OnInit {
     {
       name: 'Will 保哥',
       description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
+          `多奇數位創意有限公司技術總監。連續 10 年榮獲選微軟最有價值專家。熟悉各式 Web 前後端開發技術。`,
       photo: 'assets/img/events/2017/will.jpg'
     }
   ];
