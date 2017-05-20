@@ -27,9 +27,8 @@ export class Event2017Component implements OnInit {
     {
       name: 'Haru',
       description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
-      photo: 'assets/img/img1.jpg'
+          `資工系畢業，對動畫跟互動性領域很感興趣，目前踏入前端工程師未滿一年，還在多學習的階段。`,
+      photo: 'assets/img/events/2017/haru.jpg'
     },
     {
       name: 'Jimmy ho',
