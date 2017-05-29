@@ -2,7 +2,8 @@
 <div class="banner">
   <div class="content">
     <h2>{{ title }}</h2>
-    <p>{{ description }}</p>
+    <h3>用企業級的平台在前端世界乘風破浪</h3>
+    <p [innerHTML]="description" style="text-align: left;"></p>
   </div>
 </div>
 <!-- partial -->
@@ -30,7 +31,7 @@
     </div>
   </div>
 </div>
-<div class="table-wrap">
+<div class="table-wrap schedule">
   <div class="container">
     <p class="title text-center">活動議程</p>
     <table class="table">
@@ -50,7 +51,9 @@
           </td>
         </tr>
         <tr>
-          <td>13:05~13:10</td>
+          <td>
+            13:05~13:10
+          </td>
           <td>
             <p class="title">
               Opening
@@ -58,19 +61,30 @@
           </td>
         </tr>
         <tr>
-          <td>13:10~14:00</td>
+          <td>13:10~13:50</td>
           <td>
+            <span class="speaker">洪名辰</span>
             <p class="title">
               Angular 與 PWA - Offline WebSite
             </p>
             <p class="description">
-              在這個時代，網頁已經離不開我們每天的生活，網頁應用程式化的腳步也逐漸的再加劇，其中「離線存取」勢必成為網頁面臨的最大挑戰。在這次的分享當中，我會講解網頁技術上是如何實現離線瀏覽的，並示範要如何把一個現成的 Angular 專案加入離線功能。
+              在這個時代，網頁已經離不開我們每天的生活，網頁應用程式化的腳步也逐漸的再加劇，其中「離線存取」勢必成為網頁面臨的最大挑戰。在這次的分享當中，我會講解網頁技術上是如何實現離線瀏覽的，並示範要如何把一個現成的
+              Angular 專案加入離線功能。
             </p>
           </td>
         </tr>
         <tr>
-          <td>14:01~14:16</td>
+          <td>13:50 ~ 14:00</td>
           <td>
+            <p class="title">
+              休息片刻
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>14:00~14:15</td>
+          <td>
+            <span class="speaker">Sam</span>
             <p class="title">
               企業導入 Angular 作為前端開發架構的好處
             </p>
@@ -80,19 +94,22 @@
           </td>
         </tr>
         <tr>
-          <td>14:17~14:32</td>
+          <td>14:15~14:30</td>
           <td>
+            <span class="speaker">Haru</span>
             <p class="title">
               Angular Animation 快速上手
             </p>
             <p class="description">
-              Angular 已經 4.0 了，在動畫的部分也提供了相當方便且直覺的實作方式， 這次的分享要帶給大家一些使用 Angular animation 的核心觀念，如何在 15 分鐘內快速建立一個 loading box，輕鬆愉快沒負擔！
+              Angular 已經 4.0 了，在動畫的部分也提供了相當方便且直覺的實作方式， 這次的分享要帶給大家一些使用 Angular animation 的核心觀念，如何在 15 分鐘內快速建立一個 loading
+              box，輕鬆愉快沒負擔！
             </p>
           </td>
         </tr>
         <tr>
-          <td>14:33~14:48</td>
+          <td>14:30~14:45</td>
           <td>
+            <span class="speaker">Jimmy ho</span>
             <p class="title">
               i18n由淺入深
             </p>
@@ -102,45 +119,52 @@
           </td>
         </tr>
         <tr>
-          <td>14:49~15:04</td>
+          <td>14:45~15:00</td>
           <td>
+            <span class="speaker">Jeff</span>
             <p class="title">
               Angular 中的 Zone = NgZone
             </p>
             <p class="description">
-              使用 Angular 進行開發的你，已經知道元件之間的資料傳輸機制，例如屬性綁定進行輸入、事件綁定進行輸出。 但你是否曾有這樣的疑問: Angular
-              是在什麼時候，又是如何進行變更偵測的？ 就讓我們來探討 Zone.js 的暴力美學，並體驗 NgZone 所帶來便利的變更偵測機制。
+              使用 Angular 進行開發的你，已經知道元件之間的資料傳輸機制，例如屬性綁定進行輸入、事件綁定進行輸出。 但你是否曾有這樣的疑問: Angular 是在什麼時候，又是如何進行變更偵測的？ 就讓我們來探討
+              Zone.js 的暴力美學，並體驗 NgZone 所帶來便利的變更偵測機制。
             </p>
           </td>
         </tr>
         <tr>
-          <td>15:05~15:20</td>
+          <td>15:00~15:15</td>
           <td>
-            <p class="title">同質性專案使用 Angular 模組搭配 Git Subtree</p>
+            <span class="speaker">拉拉醬</span>
+            <p class="title">
+              同質性專案使用 Angular 模組搭配 Git Subtree
+            </p>
             <p class="description">
               同質性專案都會使用到類似的元件，利用Angular的模組化功能，可以把共用元件抽到ShareModule中，搭配Git Subtree做ShareModule的版控，便可以在不同的專案中使用及回饋更新元件，增加開發的效率。
             </p>
           </td>
         </tr>
         <tr>
-          <td>15:20 ~ 15:30</td>
+          <td>15:15 ~ 15:30</td>
           <td>
             <p class="title">
-              休息片刻
+              休息片刻，交流時間
             </p>
           </td>
         </tr>
         <tr>
-          <td>15:30~16:30</td>
+          <td>15:30~16:10</td>
           <td>
-            <p class="title"> 優化 Angular 團隊開發流程：實現 DevOps 開發維運一體化</p>
+            <span class="speaker">Will 保哥</span>
+            <p class="title">
+              優化 Angular 團隊開發流程：實現 DevOps 開發維運一體化
+            </p>
             <p class="description"> 在多人的開發團隊中建構一個 Angular 網站，需考慮彼此之間如何分工合作，對模組與元件也須進行適當的架構規劃，開發習慣與程式碼樣式也需建立規範，這樣才能提高應用程式的可維護性。當系統需要進行整合時，又該如何實現持續整合與部署？又該如何監控線上
               Angular 應用程的執行效能與問題分析？本次演說將帶大家細說從頭，了解在 Angular 如何實踐 DevOps 流程。
             </p>
           </td>
         </tr>
         <tr>
-          <td>16:30~17:00</td>
+          <td>16:10~17:00</td>
           <td>
             <p class="title">
               AMA
@@ -170,4 +194,4 @@
   </div>
 </div>
 <!--<augt-photos></augt-photos>-->
-<augt-contact></augt-contact>
+<!--<augt-contact></augt-contact>-->

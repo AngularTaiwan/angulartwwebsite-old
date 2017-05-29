@@ -8,8 +8,13 @@ import {Meta, Title} from '@angular/platform-browser';
 })
 export class Event2017Component implements OnInit {
   title: string = 'Angular Taiwan 2017';
-  description: string =
-      `Angular從Beta到正式，一直到現在的四版，也差不多有一年多的時間。這一年來，每個人在學習Angular的旅程上，不論是自己的小專案，或是公司的案子上，多少會遇到一些讓人無法忘記的痛苦經驗，或是解開成就的喜悅感。這次的活動，我們邀請大家來分享這一年來學習Angular的心得，內容也會很精彩，不能錯過!`;
+  description: string = `
+前端的世界就像海洋一樣深不可測，看似平靜的海面往往潛藏著暗潮洶湧，因此有許多人望海興嘆，遲遲不敢順著潮流推進。但也有不少前端勇者，不畏巨浪、奮勇向前，有的徒手入海...陣亡了，有的泥船渡河...放棄了。<br/>
+
+面對一望無際的海洋，大家總在風平浪靜時啟航，因此在一開始的時候，總是比較順利，也沒有太大的挑戰。但隨著目標越大、越遠，海浪自然是愈加劇烈，如果沒有事先做好準備，不是裹足不前，就是辛苦奮戰。<br/>
+
+優異的 Angular 前端框架經過多年的淬鍊發展，已經醞釀出完整的開發生態系，不但擁有豐富的開發工具與外掛，還有大量現成的 UI 元件與函式庫可用，更可整合市面上大量的
+ jQuery, jQuery UI 或其他 VanillaJS 前端套件，世界上也越來越多以 Angular 完成的作品。這些都是幫助各位在前端世界乘風破浪的關鍵要素。本次我們特別邀請到 7 位講者，用一個下午的時間，釋放你的大腦、打開你的眼界!`;
 
   speakers: ISpeaker[] = [
     {
@@ -21,16 +26,14 @@ export class Event2017Component implements OnInit {
     {
       name: 'Sam',
       description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
-      photo: 'assets/img/img1.jpg'
+          `任職於神腦國際，原本為後端開發者，喜歡物件導向，因為 TypeScript 與 Angular 的優雅而瘋狂愛上，目前與團隊使用 Angular 作為前端開發。`,
+      photo: 'assets/img/events/2017/sam.jpg'
     },
     {
       name: 'Haru',
       description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
-      photo: 'assets/img/img1.jpg'
+          `資工系畢業，對動畫跟互動性領域很感興趣，目前踏入前端工程師未滿一年，還在多學習的階段。`,
+      photo: 'assets/img/events/2017/haru.jpg'
     },
     {
       name: 'Jimmy ho',
@@ -52,8 +55,7 @@ export class Event2017Component implements OnInit {
     {
       name: 'Will 保哥',
       description:
-          `Lorem ipsum dolor sit amet, mutat graeco volumus ad eam, singulis patrioque comprehensam nam no. Mei cu dicat voluptaria
-        volumus.`,
+          `多奇數位創意有限公司技術總監。連續 10 年榮獲選微軟最有價值專家。熟悉各式 Web 前後端開發技術。`,
       photo: 'assets/img/events/2017/will.jpg'
     }
   ];
