@@ -14,17 +14,41 @@
     }
 }
 
-.schedule{
-  .table .speaker{
-     font-size: 16px;
-     float: right;
-     min-height: 80px;
-     margin-left: 20px;
-     color: #de6d48;
-  }
-  .table .title{
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 10px;
+.schedule {
+    .title{
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #de6d48;
+    }
+    .sub-title {
+      font-size: 18px;
+      text-align: center;
+      font-weight: 600;
+      display: block;
+    }
+  .speaker {
+    text-align: center;
+    margin: 20px 0;
+    .speaker-name{
+      display: block;
+      font-size: 16px;
+      line-height: 16px;
+      text-align: center;
+      font-weight: 600;
+      color: #de6d48;
+    }
+    .photo {
+      width: 120px;
+      height: 120px;
+      border-radius: 100%;
+      display: inline-block;
+      overflow: hidden;
+      margin-bottom: 20px;
+      border: solid 1px #979797;
+      img{
+          max-height: 100%;
+      }
+    }
   }
 }
