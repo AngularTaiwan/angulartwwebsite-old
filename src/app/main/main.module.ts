@@ -7,10 +7,11 @@ import {FooterComponent} from './footer/footer.component';
 import {HeaderComponent} from './header/header.component';
 import {MainComponent} from './main/main.component';
 import { HideDuringEventDirective } from './hide-during-event.directive';
+import { AdDirective } from './ad.directive';
 
 @NgModule({
   imports: [ShareModule, RouterModule],
-  declarations: [MainComponent, FooterComponent, HeaderComponent, HideDuringEventDirective],
+  declarations: [MainComponent, FooterComponent, HeaderComponent, HideDuringEventDirective, AdDirective],
   exports: [MainComponent, FooterComponent, HeaderComponent]
 })
 export class MainModule {
