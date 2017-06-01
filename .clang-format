@@ -2,3 +2,4 @@ BasedOnStyle:    Google
 
 Language:        JavaScript
 ColumnLimit:     100
+JavaScriptWrapImports : true
