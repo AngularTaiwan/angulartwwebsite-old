@@ -13,3 +13,12 @@
         box-shadow: none;
     }
 }
+
+.btn-white {
+  border:  solid 2px white;
+  color: white;
+  &:active, &:hover, &:focus {
+    background: white;
+    color: #444444;
+  }
+}

@@ -1,10 +1,10 @@
 .banner {
-    height: 500px; 
-    background: url(../img/banner-o.jpg) center center no-repeat/cover;
+    height: 500px;
+    background: url(../img/banner-o.jpg) center bottom no-repeat/cover;
     .content {
         width: 75%;
         max-width: 850px;
-        background: rgba(0, 0, 0, 0.65);
+        background: rgba(0, 0, 0, 0.3);
         color: white;
         margin: 0 auto;
         padding: 25px 20px;
@@ -16,7 +16,11 @@
         line-height: 1.7em;
         h2 {
             margin: 0 0 20px;
-            font-size: 36px; 
+            font-size: 36px;
+            font-weight: bold;
+        }
+        h4 {
+          margin-top: 20px;
         }
     }
 }
@@ -30,7 +34,20 @@
             font-size: 14px;
             line-height: 1.5em;
             h2 {
-                font-size: 20px;
+                font-size: 16px;
+                margin-bottom: 10px;
+            }
+            h3 {
+              font-size: 14px;
+              margin-top: 10px;
+            }
+            h4 {
+              font-size: 12px;
+              margin-top: 15px;
+            }
+            .btn-white {
+              width: 100%;
+              font-size: 14px;
             }
         }
     }
