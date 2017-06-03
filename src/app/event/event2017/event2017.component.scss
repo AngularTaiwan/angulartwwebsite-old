@@ -5,6 +5,7 @@
 }
 
 .news {
+  background: #f5f5f5;
   .btn {
     width: auto;
   }
@@ -22,7 +23,26 @@
   margin-top: 5px;
 }
 
+h4 a{
+  color: inherit;
+}
 
+.sponsor {
+  margin: 60px 0;
+  span {
+    font-size: 20px;
+    margin: 0 20px;
+  }
+}
+
+@media(max-width: 480px) {
+  .sponsor {
+    span {
+      font-size: 18px;
+      display: block;
+    }
+  }
+}
 
 // .table-wrap{
 //   .table tbody tr td {
