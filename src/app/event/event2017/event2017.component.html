@@ -1,24 +1,41 @@
 <!-- partial:partial/_banner.html -->
 <div class="banner">
   <div class="content">
-    <h2>{{ title }}</h2>
+    <h2>Angular Taiwan 2017 社群小聚</h2>
     <h3>用企業級的平台在前端世界乘風破浪</h3>
-    <p [innerHTML]="description" style="text-align: left;"></p>
+    <h3>106/06/24 下午 1 點至下午 5 點</h3>
+    <a href="http://www.accupass.com/go/ngtw2017" class="btn btn-lg" style="margin-top:10px">立即報名</a>
+  </div>
+</div>
+<div class="news">
+  <div class="container text-left">
+    <p>
+      前端的世界就像海洋一樣深不可測，看似平靜的海面往往潛藏著暗潮洶湧，因此有許多人望海興嘆，遲遲不敢順著潮流推進。但也有不少前端勇者，不畏巨浪、奮勇向前，有的徒手入海...陣亡了，有的泥船渡河...放棄了。面對一望無際的海洋，大家總在風平浪靜時啟航，因此在一開始的時候，總是比較順利，也沒有太大的挑戰。但隨著目標越大、越遠，海浪自然是愈加劇烈，如果沒有事先做好準備，不是裹足不前，就是辛苦奮戰。
+    </p>
+    <p>
+      優異的 Angular 前端框架經過多年的淬鍊發展，已經醞釀出完整的開發生態系，不但擁有豐富的開發工具與外掛，還有大量現成的<a href="https://github.com/brillout/awesome-angular-components"
+        target="_blank">UI 元件與函式庫</a>可用，更可整合市面上大量的 jQuery, jQuery UI 或其他 VanillaJS 前端套件，世界上也越來越多以 Angular
+      完成的
+      <a href="http://angularexpo.com/" target="_blank">作品</a>。這些都是幫助各位在前端世界乘風破浪的關鍵要素。本次我們特別邀請到 7 位講者，用一個下午的時間，釋放你的大腦、打開你的眼界，歡迎
+      6/24 (六) 跟我們一起.乘.風.破.浪.！
+    </p>
   </div>
 </div>
 <!-- partial -->
-<div class="news">
-  <div class="container text-center">
-    <p class="title">活動資訊</p>
-    <p>日期：106 年 6 月 24 日 13:00 ~ 17:00</p>
-    <p>地點：台北市松山區八德路四段123號3樓</p>
-    <p>主辦單位：Angular User Group Taiwan</p>
-    <p>協辦單位：多奇數位創意有限公司</p>
-    <a href="#" class="btn btn-lg">立即報名</a>
+<div class="news" style="background: #f5f5f5;">
+  <div class="container text-left" id="info">
+    <p class="title text-center">活動資訊</p>
+    <p>活動日期：106/06/24 下午 1 點至下午 5 點</p>
+    <p>活動地點：台北市松山區八德路四段123號3樓</p>
+    <p>主辦單位：<a href="https://www.facebook.com/groups/augularjs.tw/" target="_blank">Angular User Group Taiwan</a></p>
+    <p>協辦單位：<a href="http://www.miniasp.com/" target="_blank">奇數位創意有限公司</a></p>
+    <p class="text-center">
+      <a href="http://www.accupass.com/go/ngtw2017" class="btn btn-lg">立即報名</a>
+    </p>
   </div>
 </div>
 <!-- partial:partial/_circle-type.html -->
-<div class="circle-type" style="background: #f5f5f5;" id="speakers">
+<div class="circle-type" id="speakers">
   <div class="container">
     <p class="title text-center">講者介紹</p>
     <div class="col-sm-6 col-md-3 item" *ngFor="let speaker of speakers">
@@ -31,7 +48,7 @@
     </div>
   </div>
 </div>
-<div class="table-wrap" id="schedule">
+<div class="table-wrap" style="background: #f5f5f5;" id="schedule">
   <div class="container">
     <p class="title text-center">活動議程</p>
     <table class="table schedule">
@@ -43,7 +60,7 @@
       </thead>
       <tbody>
         <tr>
-          <td>12:50~13:05</td>
+          <td>12:50 ~ 13:05</td>
           <td>
             <p class="sub-title">
               報到
@@ -52,7 +69,7 @@
         </tr>
         <tr>
           <td>
-            13:05~13:10
+            13:05 ~ 13:10
           </td>
           <td>
             <p class="sub-title">
@@ -61,13 +78,14 @@
           </td>
         </tr>
         <tr>
-          <td>13:10~13:50</td>
+          <td>13:10 ~ 13:50</td>
           <td>
             <p class="title">
-              Angular 與 PWA - Offline WebSite
+              使用 Angular 與 PWA 打造離線網站
             </p>
             <p class="description">
-              在這個時代，網頁已經離不開我們每天的生活，網頁應用程式化的腳步也逐漸的再加劇，其中「離線存取」勢必成為網頁面臨的最大挑戰。在這次的分享當中，我會講解網頁技術上是如何實現離線瀏覽的，並示範要如何把一個現成的 Angular 專案加入離線功能。
+              在這個時代，網頁已經離不開我們每天的生活，網頁應用程式化的腳步也逐漸的再加劇，其中「離線存取」勢必成為網頁面臨的最大挑戰。在這次的分享當中，我會講解網頁技術上是如何實現離線瀏覽的，並示範要如何把一個現成的
+              Angular 專案加入離線功能。
             </p>
             <div class="speaker">
               <div class="photo">
@@ -86,7 +104,7 @@
           </td>
         </tr>
         <tr>
-          <td>14:00~14:15</td>
+          <td>14:00 ~ 14:15</td>
           <td>
             <p class="title">
               企業導入 Angular 作為前端開發架構的好處
@@ -103,13 +121,14 @@
           </td>
         </tr>
         <tr>
-          <td>14:15~14:30</td>
+          <td>14:15 ~ 14:30</td>
           <td>
             <p class="title">
               Angular Animation 快速上手
             </p>
             <p class="description">
-              Angular 已經 4.0 了，在動畫的部分也提供了相當方便且直覺的實作方式， 這次的分享要帶給大家一些使用 Angular animation 的核心觀念，如何在 15 分鐘內快速建立一個 loading box，輕鬆愉快沒負擔！
+              Angular 已經 4.0 了，在動畫的部分也提供了相當方便且直覺的實作方式， 這次的分享要帶給大家一些使用 Angular animation 的核心觀念，如何在 15 分鐘內快速建立一個 loading
+              box，輕鬆愉快沒負擔！
             </p>
             <div class="speaker">
               <div class="photo">
@@ -120,10 +139,10 @@
           </td>
         </tr>
         <tr>
-          <td>14:30~14:45</td>
+          <td>14:30 ~ 14:45</td>
           <td>
             <p class="title">
-              i18n由淺入深
+              開發多國語網站： i18n由淺入深
             </p>
             <p class="description">
               一個要提供給國際使用的網站，一定會遇到多國語系的問題，Angular已經幫我們想好解決方案，i18n，一起進入這個世界探索吧!
@@ -137,14 +156,14 @@
           </td>
         </tr>
         <tr>
-          <td>14:45~15:00</td>
+          <td>14:45 ~ 15:00</td>
           <td>
             <p class="title">
               Angular 中的 Zone = NgZone
             </p>
             <p class="description">
-              使用 Angular 進行開發的你，已經知道元件之間的資料傳輸機制，例如屬性綁定進行輸入、事件綁定進行輸出。 但你是否曾有這樣的疑問: Angular 是在什麼時候，又是如何進行變更偵測的？ 就讓我們來探討 Zone.js 的暴力美學，並體驗
-              NgZone 所帶來便利的變更偵測機制。
+              使用 Angular 進行開發的你，已經知道元件之間的資料傳輸機制，例如屬性綁定進行輸入、事件綁定進行輸出。 但你是否曾有這樣的疑問: Angular 是在什麼時候，又是如何進行變更偵測的？ 就讓我們來探討
+              Zone.js 的暴力美學，並體驗 NgZone 所帶來便利的變更偵測機制。
             </p>
             <div class="speaker">
               <div class="photo">
@@ -155,7 +174,7 @@
           </td>
         </tr>
         <tr>
-          <td>15:00~15:15</td>
+          <td>15:00 ~ 15:15</td>
           <td>
             <p class="title">
               同質性專案使用 Angular 模組搭配 Git Subtree
@@ -180,7 +199,7 @@
           </td>
         </tr>
         <tr>
-          <td>15:30~16:10</td>
+          <td>15:30 ~ 16:10</td>
           <td>
             <p class="title">
               優化 Angular 團隊開發流程：實現 DevOps 開發維運一體化
@@ -197,10 +216,21 @@
           </td>
         </tr>
         <tr>
-          <td>16:10~17:00</td>
+          <td>16:10 ~ 17:00</td>
+          <td>
+            <p class="title">
+              AMA時間
+            </p>
+            <p class="description">
+              您可以在詢問講者們任何問題。透過問答的交流方式，讓與會的朋友們，可以有更進一步的收穫。
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>17:00</td>
           <td>
             <p class="sub-title">
-              AMA
+              Closing
             </p>
           </td>
         </tr>
