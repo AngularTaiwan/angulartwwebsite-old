@@ -22,7 +22,9 @@
       "styles": [
         "./assets/scss/style.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/smooth-scroll/dist/js/smooth-scroll.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
