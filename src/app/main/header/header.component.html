@@ -13,7 +13,7 @@
     <ul class="menu web" *augtHideDuringEvent="false">
       <ng-template augtAdHost></ng-template>
     </ul>
-    <span class="burger mobile" *augtHideDuringEvent></span>
+    <span class="burger mobile"></span>
     <ul class="menu-mobile mobile" *augtHideDuringEvent>
       <span class="close-btn"></span>
       <li><a routerLink="/about">關於我們</a></li>
@@ -24,6 +24,7 @@
       <li><a href="https://forum.angular.tw/" target="_blank">討論區</a></li>
     </ul>
     <ul class="menu-mobile mobile" *augtHideDuringEvent="false">
+      <span class="close-btn"></span>
       <ng-template augtAdHost></ng-template>
     </ul>
   </div>
