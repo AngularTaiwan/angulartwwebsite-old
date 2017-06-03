@@ -37,7 +37,7 @@ export class Event2017Component implements OnInit {
     {
       name: 'Jeff',
       description:
-          `任職於多奇數位創意，酷奇教育訓練 Angular 實作課程教練，擁有一年又過三個月的 Angular 2+ 開發經驗，預計再三年將學會火球術(?)的熱血前端開發者`,
+          `任職於多奇數位創意，酷奇教育訓練 Angular 實作課程教練，擁有一年又過三個月的 Angular 2+ 開發經驗的熱血前端開發者`,
       photo: 'assets/img/events/2017/jeff.jpg'
     },
     {
@@ -69,5 +69,5 @@ export class Event2017Component implements OnInit {
 interface ISpeaker {
   name: string;
   description: string;
-  photo: string
+  photo: string;
 }
