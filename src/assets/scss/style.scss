@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 
-$bluegreen: #1296b3;
+// $bluegreen: #1296b3;
+$bluegreen: #5bc4be;
 $orange: #de6d48;
 $deepblue: #263343;
 
@@ -20,6 +21,7 @@ $deepblue: #263343;
 @import "components/button";
 @import "components/media";
 @import "components/location";
+@import "components/gotop";
 
 //pages
 @import "pages/index";

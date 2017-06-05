@@ -1,11 +1,12 @@
 .banner {
-    height: 500px;
+    height: calc(100vh - 200px);
     background: url(../img/banner-o.jpg) center bottom no-repeat/cover;
     .content {
         width: 75%;
         max-width: 850px;
-        background: rgba(0, 0, 0, 0.3);
-        color: white;
+        // background: rgba(0, 0, 0, 0.3);
+        background-color: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+        color: #828282;
         margin: 0 auto;
         padding: 25px 20px;
         position: relative;
@@ -18,6 +19,7 @@
             margin: 0 0 20px;
             font-size: 36px;
             font-weight: bold;
+            color: #3cada6;
         }
         h4 {
           margin-top: 20px;
