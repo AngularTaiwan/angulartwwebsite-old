@@ -7,8 +7,13 @@ import {Meta, Title} from '@angular/platform-browser';
   styleUrls: ['./event2017.component.scss']
 })
 export class Event2017Component implements OnInit {
-  title = 'Angular Taiwan 2017';
-  description = `Angular Conference Angular Taiwan 2017-06-24 in Taipei`;
+  title = '台灣 Angular 社群小聚 - 用企業級的平台在前端世界乘風破浪';
+  description =
+      `前端的世界就像海洋一樣深不可測，看似平靜的海面往往潛藏著暗潮洶湧，因此有許多人望海興嘆，遲遲不敢順著潮流推進。但也有不少前
+  端勇者，不畏巨浪、奮勇向前，有的徒手入海...陣亡了，有的泥船渡河...放棄了。面對一望無際的海洋，大家總在風平浪靜時啟航，因此在一開始的時候，總是比較順利，也沒有太大的挑戰。但隨著目標越大、越遠，海浪自然是愈加劇烈，如果沒有事先做好準備，不是裹足不前，就是辛苦奮戰。
+優異的 Angular 前端框架經過多年的淬鍊發展，已經醞釀出完整的開發生態系，不但擁有豐富的開發工具與外掛，還有大量現成的UI 元件與函式庫可用，更可
+整合市面上大量的 jQuery, jQuery UI 或其他 VanillaJS 前端套件，世界上也越來越多以 Angular 完成的 作品。這些都是幫助各位在前端世界乘風破
+浪的關鍵要素。本次我們特別邀請到 7 位講者，用一個下午的時間，釋放你的大腦、打開你的眼界，歡迎 6/24 (六) 跟我們一起.乘.風.破.浪.！`;
 
   speakers: ISpeaker[] = [
     {
@@ -58,10 +63,11 @@ export class Event2017Component implements OnInit {
   ngOnInit() {
     this.Title.setTitle(`${this.title} | Angular User Group Taiwan`);
     this.meta.addTags([
-      {property: 'og:url', content: 'https://angular.tw'}, {property: 'og:type', content: 'event'},
-      {property: 'og:title', content: this.title},
-      {property: 'og:description', content: this.description},
-      {property: 'og:image', content: 'Good Morning Harwood'}
+      {property: 'og:type', content: 'event'},
+      {property: 'og:description', content: this.description}, {
+        property: 'og:image',
+        content: 'https://2017.angular.tw/banner-o.d35e84143e9c50d01140.jpg'
+      }
     ]);
   }
 }
