@@ -22,3 +22,13 @@
     color: #444444;
   }
 }
+
+.btn-blulegreen {
+  border:  solid 2px $bluegreen;
+  color: $bluegreen;
+  &:active, &:hover, &:focus {
+    background: $bluegreen;
+    color: white;
+  }
+}
+

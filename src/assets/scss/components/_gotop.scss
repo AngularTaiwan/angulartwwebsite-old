@@ -1,0 +1,49 @@
+/* line 261, ../scss/goo2.scss */
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: none;
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: $bluegreen url(../img/gotop.svg) no-repeat center 50%;
+  border-radius: 5px;
+  opacity: .5;
+  visibility: hidden;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+  z-index: 1000;
+}
+/* line 286, ../scss/goo2.scss */
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+/* line 292, ../scss/goo2.scss */
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: .5;
+  &:hover {
+      &:hover {
+        opacity: 1;
+    }
+  }
+}
+/* line 297, ../scss/goo2.scss */
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+/* line 301, ../scss/goo2.scss */
+.no-touch .cd-top:hover {
+  background-color: #202020;
+  opacity: 1;
+}
