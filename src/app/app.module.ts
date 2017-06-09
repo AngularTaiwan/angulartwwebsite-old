@@ -15,6 +15,8 @@ import {ShareModule} from './share/share.module';
 /*這是一個測試*/
 export const eventConfig = new InjectionToken('eventConfig');
 
+
+
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule, ShareModule, CoreModule, AppRoutingModule, MainModule, EventModule],

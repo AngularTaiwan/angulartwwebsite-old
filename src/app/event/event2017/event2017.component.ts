@@ -64,10 +64,8 @@ export class Event2017Component implements OnInit {
     this.Title.setTitle(`${this.title} | Angular User Group Taiwan`);
     this.meta.addTags([
       {property: 'og:type', content: 'event'},
-      {property: 'og:description', content: this.description}, {
-        property: 'og:image',
-        content: 'https://2017.angular.tw/banner-o.d35e84143e9c50d01140.jpg'
-      }
+      {property: 'og:description', content: this.description},
+      {property: 'og:image', content: 'https://2017.angular.tw/assets/img/banner-o.jpg'}
     ]);
   }
 }
