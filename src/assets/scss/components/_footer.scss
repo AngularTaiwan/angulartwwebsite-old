@@ -8,7 +8,7 @@ footer {
         margin-bottom: 20px;
     }
     li {
-        margin-bottom: 15px;        
+        margin-bottom: 15px;
     }
     a {
         color: white;
@@ -60,7 +60,7 @@ footer {
     }
     .footer-list {
         display: none;
-        margin: 10px 0 0; 
+        margin: 10px 0 0;
         a {
             width: 100%;
             display: block;
@@ -68,10 +68,10 @@ footer {
             padding: 5px 0;
             &:hover {
                 border-bottom: none;
-            } 
+            }
         }
     }
-    
+
 }
 .share-btn {
     width: 45px;
@@ -205,11 +205,11 @@ footer {
         }
         .github-icon-h {
             top: 12px;
-        } 
+        }
     }
 }
 .fb-icon {
-    background: url(../img/facebook.svg) 0 0 no-repeat/100%;
+    background: url(../img/facebook.svg) 0 0/100% no-repeat;
     width: 14px;
     height: 26px;
     display: inline-block;
@@ -217,7 +217,7 @@ footer {
     left: 15px;
 }
 .youtube-icon {
-    background: url(../img/youtube.svg) 0 0 no-repeat/100%;
+    background: url(../img/youtube.svg) 0 0/100% no-repeat;
     width: 20px;
     height: 23px;
     display: inline-block;
@@ -225,7 +225,7 @@ footer {
     left: 16px;
 }
 .telegram-icon {
-    background: url(../img/telegram.svg) 0 0 no-repeat/100%;
+    background: url(../img/telegram.svg) 0 0/100% no-repeat;
     width: 25px;
     height: 23px;
     display: inline-block;
@@ -233,7 +233,7 @@ footer {
     left: 8px;
 }
 .github-icon {
-    background: url(../img/github.svg) 0 0 no-repeat/100%;
+    background: url(../img/github.svg) 0 0/100% no-repeat;
     width: 26px;
     height: 23px;
     display: inline-block;
@@ -241,7 +241,7 @@ footer {
     left: 10px;
 }
 .fb-icon-h {
-    background: url(../img/facebook-h.svg) 0 0 no-repeat/100%;
+    background: url(../img/facebook-h.svg) 0 0/100% no-repeat;
     width: 14px;
     height: 26px;
     display: inline-block;
@@ -249,7 +249,7 @@ footer {
     left: 15px;
 }
 .youtube-icon-h {
-    background: url(../img/youtube-h.svg) 0 0 no-repeat/100%;
+    background: url(../img/youtube-h.svg) 0 0/100% no-repeat;
     width: 20px;
     height: 23px;
     display: inline-block;
@@ -257,7 +257,7 @@ footer {
     left: 16px;
 }
 .telegram-icon-h {
-    background: url(../img/telegram-h.svg) 0 0 no-repeat/100%;
+    background: url(../img/telegram-h.svg) 0 0/100% no-repeat;
     width: 25px;
     height: 23px;
     display: inline-block;
@@ -265,12 +265,12 @@ footer {
     left: 8px;
 }
 .github-icon-h {
-    background: url(../img/github-h.svg) 0 0 no-repeat/100%;
+    background: url(../img/github-h.svg) 0 0/100% no-repeat;
     width: 26px;
     height: 23px;
     display: inline-block;
     position: absolute;
-    left: 10px; 
+    left: 10px;
 }
 
 @media(max-width: 991px) {
