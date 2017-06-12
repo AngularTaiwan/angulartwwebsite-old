@@ -40,13 +40,15 @@
 <div class="circle-type" id="speakers">
   <div class="container">
     <p class="title text-center">講者介紹</p>
-    <div class="col-sm-6 col-md-3 item" *ngFor="let speaker of speakers">
-      <div class="photo">
-        <img [src]="speaker.photo">
+    <div *ngFor="let speaker of speakers;let i=index;" [ngClass]="{'row': i%4==3}">
+      <div class="col-sm-6 col-md-3 item">
+        <div class="photo">
+          <img [src]="speaker.photo">
+        </div>
+        <h4>{{ speaker.name }}</h4>
+        <p>{{ speaker.description }}
+        </p>
       </div>
-      <h4>{{ speaker.name }}</h4>
-      <p>{{ speaker.description }}
-      </p>
     </div>
   </div>
 </div>
