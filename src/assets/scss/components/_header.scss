@@ -1,6 +1,11 @@
 header {
     background: $bluegreen;
     padding: 15px 10px 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
     .logo {
         width: 185px;
         height: 50px;

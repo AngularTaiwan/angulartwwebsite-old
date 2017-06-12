@@ -1,6 +1,7 @@
 .banner {
     height: calc(100vh - 200px);
     background: url(../img/banner-o.jpg) center bottom/cover no-repeat;
+    margin-top: 80px;
     .content {
         width: 75%;
         max-width: 850px;
@@ -27,6 +28,11 @@
     }
 }
 
+@media(max-width: 991px) {
+  .banner {
+    margin-top: 60px;
+  }
+}
 @media(max-width: 480px) {
     .banner {
         height: 400px;
